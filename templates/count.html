@@ -1,0 +1,14 @@
+<h1>count</h1>
+
+<a href="{% url 'home' %}">start again</a>
+<p>there are {{count}}</p>
+
+{{fulltext}}
+
+<br><br>
+{%for w,c in word_dict%}
+
+{{w}} : {{c}}
+<br>
+
+{%endfor%}
